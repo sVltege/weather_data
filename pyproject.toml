@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "archive"
+version = "0.1.0"
+description = ""
+authors = ["sVltege <vltgonvt2742@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.2.4"
+numpy = "^2.1.0"
+scipy = "^1.14.1"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+argparse = "^1.4.0"
+scikit-learn = "^1.5.1"
+cartopy = "^0.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
